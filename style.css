@@ -1,0 +1,108 @@
+body {
+	background-color: #FFEBCD;
+	font-family: 'Calibri';
+}
+
+h1 {
+	text-align: center;
+	font-size: 30pt;
+}
+
+.menu {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.menu a{
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .btn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: #333;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .btn {
+	background-color: #696969; 
+	cursor: pointer;
+}
+
+.sort {
+	padding-bottom: 20px;
+}
+
+#sort {
+	float:right;
+	margin: 15px;
+	margin-bottom: 40px;
+	padding: 5px;
+	background-color: #333;
+	color: white;
+}
+
+img {
+	width: 30%;
+	height: auto;
+	float: left;
+	margin-left:10px;
+	margin-bottom:10px;
+	margin-right: 0;
+}
+
+#excName {
+	font-size: 18pt;
+	font-weight: bold;
+}
+
+#info {
+	margin-left: 0;
+	width: 62%;
+	margin-left: 32%;
+}
+
+.excursionInfo {
+	border: solid black 1px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 0;
+	margin-top: 40px;
+	padding: 10px;
+	text-align: justify;
+}
